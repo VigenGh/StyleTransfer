@@ -109,13 +109,13 @@ class style_transfer():
         self.best_img=best_img
         self.images=np.array(images_per_iterations)
 
-model1=style_transfer()
-model1.train(mona,van_gog,weights=[1e-2,1e3])
-tr=np.array(model1.init_image)
+model=style_transfer()
+model.train(mona,van_gog,weights=[1e-2,1e3])
+tr=np.array(model.init_image)
 for t in range(1,11):
     plt.subplot(2,5,t)
-    j=model1.images[t-1]
+    j=model.images[t-1]
     plt.imshow(j.astype(int))
 plt.show()
-plt.imshow(model1.best_img.astype(int))
+plt.imshow(model.best_img.astype(int))
 plt.show()
