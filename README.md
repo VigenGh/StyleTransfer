@@ -1,3 +1,3 @@
 # StyleTransfer
-![barior](https://github.com/VigenGh/StyleTransfer/blob/main/newfolder/mona.jpg){:height="700px" width="400px"} 
-![priv](https://github.com/VigenGh/StyleTransfer/blob/main/newfolder/vangog.jpg)
+<img src="https://github.com/VigenGh/StyleTransfer/blob/main/newfolder/mona.jpg" width="100" height="100">
+<img src="https://github.com/VigenGh/StyleTransfer/blob/main/newfolder/vangog.jpg" width="100" height="100">
